@@ -8,8 +8,9 @@ def assign_variable(value)
     variable_value
 end
 
-def argue
-  
+def argue(something="something")
+    puts something
+    something
 end
 
 def greeting
